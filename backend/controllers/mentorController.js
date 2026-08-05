@@ -5,7 +5,7 @@ const User = require('../models/User');
 const Problem = require('../models/Problem');
 const MentorMessage = require('../models/MentorMessage');
 
-const HISTORY_LIMIT = 15; 
+const HISTORY_LIMIT = 15;
 
 
 const gatherUserContext = async (userId) => {
@@ -104,12 +104,21 @@ const chatWithMentor = asyncHandler(async (req, res) => {
   const recentMessages = await MentorMessage.find({ user: req.user.id })
     .sort({ createdAt: -1 })
     .limit(HISTORY_LIMIT);
+
   const history = recentMessages
     .reverse()
-    .map((m) => ({ role: m.role === 'assistant' ? 'model' : 'user', parts: [{ text: m.content }] }));
+    .map((m) => ({
+      role: m.role === "assistant" ? "model" : "user",
+      parts: [{ text: m.content }],
+    }));
 
 
-  
+  while (history.length > 0 && history[0].role !== "user") {
+    history.shift();
+  }
+
+
+
   const geminiModel = getGeminiModel(systemInstruction);
   const chat = geminiModel.startChat({ history });
 

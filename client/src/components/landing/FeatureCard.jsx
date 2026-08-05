@@ -27,9 +27,10 @@ function FeatureCard({
     return (
         <div
             className={`
-                grid
                 grid-cols-1
-                lg:grid-cols-2
+                sm:grid-cols-2
+                lg:grid-cols-3
+                xl:grid-cols-4
                 gap-12
                 md:gap-16
                 lg:gap-24
@@ -79,7 +80,7 @@ function FeatureCard({
                         className="transition-transform duration-300 group-hover:translate-x-1"
                     />
                 </button>
-                
+
             </div>
         </div>
     );

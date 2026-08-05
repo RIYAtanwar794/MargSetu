@@ -13,7 +13,7 @@ function HowItWorks() {
     return (
         <section id="how-it-works" className="bg-gradient-to-b from-slate-950 to-slate-900/40 px-5 py-20 sm:px-6 lg:py-24">
 
-            <div className="mx-auto max-w-7xl">
+            <div className="mx-auto max-w-7xl ">
 
                 <SectionHeading
                     badge="⚡ How It Works"
@@ -21,7 +21,7 @@ function HowItWorks() {
                     subtitle="Getting started with MargSetu is simple. Follow these five steps and build a consistent interview preparation routine."
                 />
 
-                <div className="mt-16 grid gap-6 sm:mt-20 md:grid-cols-2 xl:grid-cols-5">
+                <div className="mt-16 grid gap-6 sm:mt-20 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 
                     <StepCard
                         number="1"

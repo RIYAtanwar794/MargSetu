@@ -36,7 +36,7 @@ function Everything() {
                 </motion.div>
 
                 <motion.div
-                    className="mt-20 grid gap-6 md:grid-cols-2 xl:grid-cols-4"
+                    className="mt-20 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
