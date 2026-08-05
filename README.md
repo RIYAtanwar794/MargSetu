@@ -10,7 +10,7 @@
 
 > **Prepare Smarter. Revise Consistently. Crack Interviews Confidently.**
 
-**MargSetu** is an AI-powered interview preparation platform designed to help students organize their coding journey with intelligent revision planning, personalized AI guidance, company roadmaps, problem tracking, analytics, and curated learning resources—all in one place.
+**MargSetu** is a coding interview preparation platform featuring AI-powered mentoring, smart revision, company roadmaps, problem tracking, analytics, and curated learning resources—all in one place.
 
 ---
 
