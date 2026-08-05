@@ -25,7 +25,7 @@
 - 📊 **Dashboard** – Personalized preparation overview with real-time progress insights.
 - 📝 **Problem Tracker** – Track coding problems with CRUD operations, favorites, filters, difficulty levels, and solving time.
 - 🔁 **Smart Revision** – Automated spaced-repetition scheduler to strengthen long-term retention.
-- 🤖 **AI Mentor** – Personalized interview guidance, concept explanations, roadmaps, and preparation strategies powered by **Google Gemini**.
+- 🤖 **AI Mentor** – Personalized interview guidance, concept explanations and preparation strategies powered by **Google Gemini**.
 - 🗺️ **Company Roadmaps** – Structured interview preparation paths for top product-based companies.
 - 📚 **Learning Hub** – Curated notes, video lectures, cheat sheets, and interview resources.
 - 📈 **Analytics** – Topic-wise and difficulty-wise performance insights with visual progress tracking.
