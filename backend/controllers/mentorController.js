@@ -37,13 +37,6 @@ const gatherUserContext = async (userId) => {
     currentStreak: user?.currentStreak || 0,
     totalSolved: totalSolved || 0,
     weakTopics: strugglingTopics.map((t) => t.topic),
-    activeGoals: goals.map((g) => ({
-      title: g.title,
-      deadline: g.deadline
-        ? g.deadline.toISOString().split("T")[0]
-        : null,
-      linkedTopic: g.linkedTopic || null,
-    })),
   };
 };
 
