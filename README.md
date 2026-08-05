@@ -19,7 +19,7 @@
 - 🔁 **Smart Revision** – Automated spaced-repetition scheduler to strengthen long-term retention.
 - 🤖 **AI Mentor** – Personalized interview guidance, concept explanations, roadmaps, and preparation strategies powered by **Google Gemini**.
 - 🗺️ **Company Roadmaps** – Structured interview preparation paths for top product-based companies.
-- 📚 **Learning Hub** – Curated DSA notes, video lectures, cheat sheets, and interview resources for DSA, DBMS, OS, CN and OOPs.
+- 📚 **Learning Hub** – Curated notes, video lectures, cheat sheets, and interview resources.
 - 📈 **Analytics** – Topic-wise and difficulty-wise performance insights with visual progress tracking.
 - 👤 **Authentication** – Secure JWT-based authentication with personalized user profiles.
 
@@ -38,23 +38,19 @@
 
 ## 🛠 Tech Stack
 
-**Frontend:**  
-React • Vite • Tailwind CSS • React Router • Axios • Framer Motion • React Hot Toast • Lucide React  
+**Frontend:** React • Vite • Tailwind CSS • React Router • Axios • Framer Motion • React Hot Toast • Lucide React  
 
-**Backend:**  
-Node.js • Express.js • MongoDB • Mongoose • JWT Authentication • bcrypt  
+**Backend:** Node.js • Express.js • MongoDB • Mongoose • JWT Authentication • bcrypt  
 
-**AI:**  
-Google Gemini API  
+**AI:** Google Gemini API  
 
-**Deployment:**  
-Vercel • Render • MongoDB Atlas  
+**Deployment:** Vercel • Render • MongoDB Atlas  
 
 ---
 
 ## 🌟 Future Enhancements
 
--  AI Mock Interviews  
+-  AI Mock Interview Simulator
 -  Resume Analyzer  
 -  Daily Coding Challenges  
 -  Community Features  
