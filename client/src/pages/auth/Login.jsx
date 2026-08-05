@@ -97,15 +97,6 @@ function Login() {
                         required
                     />
 
-                    <div className="flex justify-end">
-                        <Link
-                            to="/forgot-password"
-                            className="text-sm text-blue-400 hover:text-blue-300"
-                        >
-                            Forgot Password?
-                        </Link>
-                    </div>
-
                     {error && (
                         <p className="text-sm text-red-400">
                             {error}
