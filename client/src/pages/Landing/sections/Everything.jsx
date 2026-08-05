@@ -16,7 +16,7 @@ import {
 
 function Everything() {
     return (
-        <section id="workspace" className="bg-slate-950 px-5 py-20 sm:px-6 lg:py-24">
+        <section id="workspace" className="bg-slate-950 px-5 py-20 sm:px-6 lg:py-18">
 
             <div className="mx-auto max-w-7xl">
 

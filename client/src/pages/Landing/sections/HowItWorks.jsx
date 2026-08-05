@@ -11,7 +11,7 @@ import {
 
 function HowItWorks() {
     return (
-        <section id="how-it-works" className="bg-gradient-to-b from-slate-950 to-slate-900/40 px-5 py-20 sm:px-6 lg:py-24">
+        <section id="how-it-works" className="bg-gradient-to-b from-slate-950 to-slate-900/40 px-5 py-20 sm:px-6 lg:py-18">
 
             <div className="mx-auto max-w-7xl ">
 
