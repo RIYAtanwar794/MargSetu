@@ -1,5 +1,13 @@
 # 🚀 MargSetu
 
+
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js&logoColor=white)
+![MongoDB Atlas](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/AI-Google%20Gemini-4285F4?logo=google&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel&logoColor=white)
+
+
 > **Prepare Smarter. Revise Consistently. Crack Interviews Confidently.**
 
 **MargSetu** is an AI-powered interview preparation platform designed to help students organize their coding journey with intelligent revision planning, personalized AI guidance, company roadmaps, problem tracking, analytics, and curated learning resources—all in one place.
