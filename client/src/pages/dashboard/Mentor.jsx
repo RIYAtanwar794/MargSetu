@@ -216,7 +216,7 @@ function AIMentor() {
 
                     {/* Messages */}
 
-                    <div className="h-[320px] sm:h-[380px] overflow-y-auto space-y-6 p-6">
+                    <div className="h-[320px] sm:h-[320px]  overflow-y-auto space-y-6 p-6">
 
                         {messages.map((msg, index) => (
 

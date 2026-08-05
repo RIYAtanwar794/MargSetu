@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { roadmapProblems } from "../../data/problems";
 import { createProblem } from "../../services/problemService";
+import toast from "react-hot-toast";
 
 
 function TopicDetails() {
@@ -61,7 +62,7 @@ function TopicDetails() {
 
             });
 
-            alert("Problem added to tracker successfully!");
+            toast.success("Problem added to tracker successfully!");
             fetchTrackedProblems();
 
         } catch (err) {
@@ -72,7 +73,7 @@ function TopicDetails() {
                 err.response?.data?.message ||
                 "Failed to add problem.";
 
-            alert(message);
+            toast.error(message);
 
         } finally {
 
