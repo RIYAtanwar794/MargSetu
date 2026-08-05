@@ -10,7 +10,7 @@ function Hero() {
 
             <div className="absolute right-[-100px] top-16 h-60 w-60 rounded-full bg-purple-600/20 blur-[100px] sm:h-80 sm:w-80 sm:blur-[120px]"></div>
 
-            <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center px-6 pt-14 pb-12 sm:pt-16 lg:min-h-[90vh] lg:flex-row">
+            <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center px-6 pt-12 pb-12 sm:pt-16 lg:min-h-[90vh] lg:flex-row">
                 {/* LEFT */}
 
                 <motion.div
@@ -23,7 +23,7 @@ function Hero() {
                     }}
                 >
 
-                    <span className="inline-flex items-center rounded-full border border-blue-500/30 bg-blue-500/10 px-5 py-1 text-sm font-medium text-blue-400 sm:text-sm">
+                    <span className="inline-flex items-center rounded-full border border-blue-500/30 bg-blue-500/10 px-5 py-2 text-sm font-medium text-blue-400 sm:text-sm">
                         🚀 Built for Aspiring Software Engineers
                     </span>
 

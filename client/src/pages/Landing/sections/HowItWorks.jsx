@@ -42,7 +42,7 @@ function HowItWorks() {
                         number="3"
                         icon={<Bot size={34} />}
                         title="Get AI Guidance"
-                        description="Your personal AI mentor provides guidance, motivation, and a smart revision strategy to keep you interview-ready."
+                        description="Personal AI mentor for guidance and smarter revision."
                     />
 
                     <StepCard

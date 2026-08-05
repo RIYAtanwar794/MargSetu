@@ -6,7 +6,7 @@ function SectionHeading({ badge, title, subtitle }) {
                 {badge}
             </span>
 
-            <h2 className="mt-6 text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
+            <h2 className="mt-6 text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl lg:text-4xl">
                 {title}
             </h2>
 

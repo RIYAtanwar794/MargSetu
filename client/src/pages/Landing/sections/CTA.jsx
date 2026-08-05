@@ -31,7 +31,7 @@ function CTA() {
                     🚀 Start Your Journey
                 </span>
 
-                <h2 className="mt-8 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl font-bold text-white">
+                <h2 className="mt-8 text-3xl font-bold leading-tight sm:text-4xl lg:text-4xl font-bold text-white">
                     Ready to Crack Your
                     <br />
                     Dream Tech Interview?
