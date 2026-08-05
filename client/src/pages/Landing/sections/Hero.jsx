@@ -23,11 +23,11 @@ function Hero() {
                     }}
                 >
 
-                    <span className="inline-flex items-center rounded-full border border-blue-500/30 bg-blue-500/10 px-5 py-2 text-sm font-medium text-blue-400 sm:text-sm">
+                    <span className="inline-flex items-center rounded-full border border-blue-500/30 bg-blue-500/10 px-5 py-1 text-sm font-medium text-blue-400 sm:text-sm">
                         🚀 Built for Aspiring Software Engineers
                     </span>
 
-                    <h1 className="mt-8 text-4xl font-extrabold leading-tight text-white sm:text-5xl lg:text-6xl">
+                    <h1 className="mt-8 text-3xl font-extrabold leading-tight text-white sm:text-5xl lg:text-5xl">
                         Everything You Need
                         <br />
                         to Ace Your
