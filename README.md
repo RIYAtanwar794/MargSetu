@@ -60,6 +60,7 @@
 -  Daily Coding Challenges  
 -  Community Features
 
+---
 
 ## ⚙️ Installation
 
